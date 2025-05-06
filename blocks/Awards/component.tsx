@@ -30,25 +30,25 @@ const Awards = () => {
         },
     ]
 
-    const  tr_item = (date:string,title:string, description:string, key:any) => {
+    const  tr_item = (date:string,title:string, description:string, key:number) => {
         return(
             <tr key={key}>
-            <td className='py-8 border-t border-gray-100 pr-8'>
+            <td className='py-8 border-t-1 border-gray-200 pr-8'>
                 <p className='text-gray-500 tracking-tight whitespace-nowrap font-medium'>
                     {date}
                 </p>
             </td>
-            <td className='py-8 border-t border-gray-100 pr-8'>
-                <h2 className='tracking-tight text-2xl whitespace-nowrap font-semibold'>
+            <td className='py-8 border-t-1 border-gray-200 pr-8'>
+                <h2 className='tracking-tight text-2xl whitespace-nowrap font-normal'>
                     {title}
                 </h2>
             </td>
-            <td className='py-8 border-t border-gray-100 pr-8'>
+            <td className='py-8 border-t-1 border-gray-200 pr-8'>
                 <p className='text-gray-500 tracking-tight whitespace-nowrap font-medium'>
                     {description}
                 </p>
             </td>
-            <td className='py-8 border-t border-gray-100 pr-8'>
+            <td className='py-8 border-t-1 border-gray-200 pr-8'>
                 <div className='flex justify-end'>
                     <a 
                         href=""
@@ -64,11 +64,11 @@ const Awards = () => {
 
 
   return (
-    <section className='relative py-32 px-[5%] font-[plus_jakarta_sans]'>
+    <section className='relative py-32 px-[4.5%]'>
         <p className='text-gray-600 font-medium text-center mb-4 '>
             Awards & Recognitions
         </p>
-        <h1 className='font-semibold text-4xl md:text-6xl text-center mb-20 '>
+        <h1 className='font-normal text-4xl md:text-6xl text-center mb-20 '>
             Our Awards
         </h1>
 
